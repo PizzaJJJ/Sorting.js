@@ -6660,7 +6660,17 @@
                 average: 0,
                 results: ""
             });
-        }    
+        }
+	    
+	results.push({
+            name: "Array.sort",
+            func: function (arr) {
+                return arr.sort();
+            },
+            res: [],
+            average: 0,
+            results: ""
+        });
 
         h = results.length;
         for (i = 0; i < h; i++) {
