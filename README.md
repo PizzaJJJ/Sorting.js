@@ -9,6 +9,32 @@ arr = Sorting.bubbleSort(arr);
 // [0, 7, 45, 98, 101]
 ```
 
+Few tests are included (those are non-enumerable):
+```Javascript
+/**
+ * Performs a given amount of tests using arrays of random numbers. 
+ * It uses same array of integers for each test.
+ * Results are displayed in the console using console.table.
+ * @param {number} l     - The length of the each array for sorting. The default value is 1000.
+ * @param {number} tests - The number of tests to perform. The default value is 1.
+ */
+Sorting.test();
+
+/**
+ * Performs a test of a given sorting function using an array of random numbers.
+ * @param {Function} func - A sorting function. If not provided, the Sorting.quickSort is used. 
+ * @param {number}   l    - The length of the array. The default value is 5000.
+ */
+Sorting.testNumbers(func, l);
+
+/**
+ * Performs a test of a given sorting function using an array of random strings.
+ * @param {Function} func - A sorting function. If not provided, the Sorting.radixMSDSort is used. 
+ * @param {number}   l    - The length of the array. The default value is 5000.
+ */
+Sorting.testStrings(func, l);
+```
+
 Sorting.js contains following algorithms:
 1. Quicksort.
 2. Quicksort with 3-way Dijkstra partitioning.
