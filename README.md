@@ -1,5 +1,5 @@
 # Sorting.js
-45 sorting algorithms in Javascript
+Collection of 45 sorting algorithms in Javascript with commentaries. It contains 45 sorting algorithms organised as a library which can be used in Node.js and in browser. 
 
 Usage: 
 ```Javascript
