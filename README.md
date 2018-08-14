@@ -1,7 +1,7 @@
 # Sorting.js
 Collection of 45 sorting algorithms in Javascript with commentaries. It contains 45 sorting algorithms organised as a library which can be used in Node.js and in browser. 
 
-Usage: 
+# Usage: 
 ```Javascript
 var arr = [98, 45, 101, 0, 7];
 
@@ -9,7 +9,8 @@ arr = Sorting.bubbleSort(arr);
 // [0, 7, 45, 98, 101]
 ```
 
-Few tests are included (those are non-enumerable):
+# Tests:
+Few tests are included (those are non-enumerable)
 ```Javascript
 /**
  * Performs a given amount of tests using arrays of random numbers. 
@@ -35,7 +36,7 @@ Sorting.testNumbers(func, l);
 Sorting.testStrings(func, l);
 ```
 
-Sorting.js contains following algorithms:
+# Algorithms:
 1. Quicksort.
 2. Quicksort with 3-way Dijkstra partitioning.
 3. Dual-pivot Quicksort suggested by V. Yaroslavskiy in 2009.
